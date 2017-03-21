@@ -1,0 +1,54 @@
+{
+  "name": "eslint-config-oairbnb",
+  "description": "eslint sharable config for airbnb + react + .tsx",
+  "version": "0.0.1",
+  "author": "othree <othree@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/othree/eslint-config-oairbnb/issues"
+  },
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "standard": "^9.0.0",
+    "tap-spec": "^4.0.0",
+    "tape": "^4.6.0"
+  },
+  "homepage": "https://github.com/othree/eslint-config-oairbnb",
+  "keywords": [
+    "oairbnb",
+    "airbnb",
+    "style checker",
+    "code style",
+    "code checker",
+    "code linter",
+    "style linter",
+    "simple",
+    "policy",
+    "style",
+    "code",
+    "lint",
+    "eslint",
+    "eslintconfig",
+    "jshint",
+    "jscs",
+    "hint",
+    "enforce",
+    "check",
+    "verify",
+    "quality",
+    "checker",
+    "code standards",
+    "eslintconfig"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/othree/eslint-config-oairbnb.git"
+  },
+  "scripts": {
+    "test": "standard && tape test/*.js | tap-spec"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^14.1.0"
+  }
+}
